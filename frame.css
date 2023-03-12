@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+body {
+    background-color: #111827;
+}
+
+
+nav ul {
+    margin: 30px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    background-color: #7272e3 ;
+}
+
+
+ .hambrger {
+    width: 20px;
+    margin-left: 15px;
+    margin-top: -50px;
+   /* margin-left: 60px;
+transition: transform .5s ease-in-out;
+  transform: scale(1.4);
+  transform-origin: 100% 0; */
+} 
+.hambrger:hover {
+     cursor: pointer;
+     /*transform : scale(1.5) translateX(30%);*/
+     width: 40px;
+     overflow: hidden;
+     background-color: rgb(163, 158, 158);
+
+}
+
+
+.project-greeting {
+    display: flex;
+    margin-left: 60%;
+}
+
+.waving-hand {
+    display: flex;
+    margin-left: 28%;
+    padding-top: 5%;
+    padding-right: 25%;
+}
+
+.waving-hand h4 {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+.well 
+    {
+        margin-left: 28%;
+        margin-top: 0.5%;
+    }
+
+.pc {
+    max-height : 30%;
+    margin-left: 45%;
+    margin-top: -10%;
+    padding-left: -2px;
+}
+
+.element {
+    display: flex;
+    padding-top: 20px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.Project {
+     margin-left: 45%;
+     padding-top: 15px;
+}
+
+.left img[alt="image3"] {
+    padding-top:20px ;
+}
+
+.left h4 {
+    text-align: center;
+}
+.right img[alt="image4"] {
+    padding-top:20px ;
+}
+
+.right h4 {
+    text-align: center;
+}
+
+.contact h1 {
+    margin-left: 44%;
+    padding-top: 5%;
+}
+
+.social-media{
+    margin-left: 44.80%;
+    padding-top: 3%;
+}
+
+.social-media image {
+    padding: auto;
+}
+
+@media  screen and (max-width : 800px) {
+    
+     nav ul {
+        display: none;
+     }
+
+     img[alt = "hambrger"] {
+        display: block;
+     }
+
+     .project-greeting {
+         display : flex ;
+         flex-direction: column;
+     }
+       
+
+     img[alt="PC"] {
+        width: 25vw;
+        padding-top: 18.5%;
+     }
+     .waving-hand {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px
+     }
+
+     .waving-hand h4 {
+        font-size: 25px;
+     }
+      
+     
+     .well h2 {
+        font-size: 20px;
+        justify-content: center;
+        margin-left: 14vw;
+     }
+
+     .well h3 {
+        font-size: 18px;
+        align-items: center;
+        margin-left: 14vw;
+     }
+
+     .element {
+        display: grid;
+        grid-template-columns: 0fr;
+        row-gap: 20px;
+        column-gap: 20px;
+     }
+
+     .Project {
+        font-size: 24px;
+     }
+       
+     .left {
+        justify-content: center;
+     }
+
+     .right {
+        justify-content: center;
+     }
+     .left h4 {
+        font-size: 12px;
+     }
+
+     .right h4 {
+        font-size: 12px;
+     }
+     .contact h1 {
+        font-size: 20px;
+     }
+}
