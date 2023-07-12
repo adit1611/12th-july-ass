@@ -1,0 +1,16 @@
+* {
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 10px , 10px , 10px , 10px;
+  background-color: aquamarine;
+}
+
+
+.body label{
+     border-radius: 15px;
+}
+
+.body button{
+  width: 50px;
+   border-radius: 5px;
+}
